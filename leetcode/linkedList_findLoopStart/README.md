@@ -10,7 +10,9 @@
 
     5.2 The reason is even if fast and slow starts from start of loop at the same time, their next meet will be at the same spot after one loop by slow. Otherwise fast is already ahead, thus they will meet before slow goes the full loop. 
 6. Suppose there are s steps from beginning to start of loop, m steps from start of loop to the point they meet. It means:
+
     k = s + m
 7. From 5 and 6
+
     r = s + m -> r - m = s
 8. So we can use two pointers, one from beginning and one from point they meet, each one step a time, when they meet, the point is where the loop starts.
