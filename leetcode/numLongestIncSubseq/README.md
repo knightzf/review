@@ -6,6 +6,6 @@ The learned solution is a recursion method, idea is.
 
 Let P(i) be the number of max length substrings that end with nums[i].
 
-So P(i) is equal to max of P(j) where j < i and nums[j] < nums[i].
+So P(i) is equal to max of P(j) + 1 where j < i and nums[j] < nums[i].
 
 The rest is just details, a bit tricky but not too much.
