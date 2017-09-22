@@ -7,3 +7,5 @@ The faster but more complex solution is a back tracking without the need of stac
 Instead it uses a more complex data strucutre to keep the list of possible solutions for each point and an index to which the possible valueis placed in the matrix.
 
 Also for backtracking, it loops back to first possible point and reset all points along the path.
+
+The failed solution is to look at each point and check their possible values, it assumes there's always at least one point with only one possible value, which is not the case for most of the sudoku problems.
