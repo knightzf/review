@@ -26,7 +26,6 @@ public:
         for(int i = 0; i < n; ++i)
         {
             int k = nums[i];
-            int count = 0;
             while(k > 0 && k <= n && k != i + 1 && k != nums[k - 1])
             {
                 std::swap(nums[i], nums[k - 1]);
@@ -34,7 +33,6 @@ public:
                 k = nums[i];
             }
         }
-
 
         for(int i = 0; i < n; ++i)
         {
