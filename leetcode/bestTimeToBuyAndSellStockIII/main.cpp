@@ -41,8 +41,8 @@ public:
             int tempMax = dp[i - 1][0] - prices[0];
             for(int j = 1; j < n; ++j)
             {
+                dp[i][j] = std::max(dp[i][j - 1], prices[j] + tempMax);                
                 tempMax = std::max(tempMax, dp[i - 1][j] - prices[j]);
-                dp[i][j] = std::max(dp[i][j - 1], prices[i] + tempMax);
                 maxProfit = std::max(maxProfit, dp[i][j]);
             }
         }
