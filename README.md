@@ -19,5 +19,5 @@ void getCombinations(const std::vector<std::string>& rows,
     {
         getCombinations(rows, idx + 1, nextRow + rows[idx][i], combinations);
     }
-}
+} 
 
