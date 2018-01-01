@@ -1,6 +1,7 @@
 review
 ======
 How to enumerate all combinations of letters when given a vector of strings?
+
 A: Use recursion and an index to keep track of which element in the vector are we at and use copy to concatenate temporary result.
 
 void getCombinations(const std::vector<std::string>& rows,
