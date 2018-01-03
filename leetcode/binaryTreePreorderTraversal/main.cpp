@@ -41,12 +41,11 @@ public:
         while(!q.empty())
         {
             TreeNode* node = q.top();
+            q.pop();
             res.push_back(node->val);
 
             if(node->right) q.push(node->right);
             if(node->left) q.push(node->left);
-
-            q.pop();
         }
 
         return res;
