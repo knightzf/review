@@ -31,7 +31,7 @@ public:
         {
             if(nums[i] == newLower)
             {
-                newLower = nums[i] + 1;
+                newLower = (long)nums[i] + 1;
                 continue;
             }
             else if(nums[i] > newLower)
