@@ -51,7 +51,7 @@ public:
         {
             int id = knowsNobodyV[i];
             bool isCelebrity = true;
-            for(int j = 0; i < n; ++j)
+            for(int j = 0; j < n; ++j)
             {
                 if(j != id && !knows(j, id))
                 {
