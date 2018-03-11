@@ -25,61 +25,41 @@ using namespace std;
 
 class Solution {
 public:
-    int bestRotation(vector<int>& A) {
-        int n = A.size();
-        if(n < 2) return 0;
-
-        int maxScore = 0;
-        int bestRotate = 0;
-        std::unordered_map<int, int> m;
-        for(int i = 0; i < n; ++i)
+    int depthSumInverse(vector<NestedInteger>& nestedList) {
+        int depth = getDepth(nestedList);
+        int res = 0;
+        calc(nestedList, depth, res);
+        return res;
+    }
+    void calc(const vector<NestedInteger>& nestedList, int depth, int& res)
+    {
+        for(const auto& integer : nestedList)
         {
-            int diff = i - A[i];
-            ++m[diff];
-
-            if(diff >= 0)
+            if(integer.isInteger())
             {
-                ++maxScore;
+                res += integer.getInteger() * depth;
+            }
+            else
+            {
+                calc(integer.getList(), depth - 1, res);
             }
         }
-
-        int lastScore = maxScore;
-
-        for(int i = 0; i < n - 1; ++i)
+    }
+    int getDepth(const vector<NestedInteger>& nestedList)
+    {
+        int t = 1;
+        for(const auto& integer : nestedList)
         {
-            int localMaxScore = lastScore;
-
-            int diff = i - A[i];
-            --m[diff];
-
-            if(diff - i >= 0) --localMaxScore;
-
-            auto iter = m.find(i);
-            if(iter != m.end())
+            if(!integer.isInteger())
             {
-                localMaxScore -= iter->second;
-            }
-
-            int newDiff = n - 1 - A[i];
-            ++m[newDiff + i];
-            ++localMaxScore;
-
-            lastScore = localMaxScore;
-
-            if(localMaxScore > maxScore)
-            {
-                maxScore = localMaxScore;
-                bestRotate = i + 1;
+                int r = getDepth(integer.getList());
+                t = max(t, r + 1);
             }
         }
-
-        return bestRotate;
+        return t;
     }
 };
 
 int main() {
     Solution s;
-    vector<int> a{2, 3, 1, 4, 0};
-    //vector<int> a{1, 3, 0, 2, 4};
-    std::cout<<s.bestRotation(a)<<std::endl;
 }
