@@ -6,3 +6,6 @@ Basically keep track of sum and if the sum >= target, remove nums from left as m
 Did this problem again, this time using binary search.\
 First tried to use a set however performance really slow.\
 Then changes to a binary search on vector and improved drastically.
+
+3/15\
+Thanks to Haoting, there's O(N) solution which is very nice.
