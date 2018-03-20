@@ -10,3 +10,23 @@ Looking at discussion, it says the other case is same if we look from righ to le
 I tried to implement it which is tricky about indexes, you don't want to have duplicates but also don't want to lose valid results.
 
 Took me a long time to finally figure it out, it turns out you need to remember last removal index.
+
+3/19\
+This is really hard to get right, the idea is not hard to understand tho.\
+The second time I tried to solve this, knowning what the algo should be took more than a day.\
+The key is to remember the last index we removed a character.\
+My attemp was to always start from index 0 and only take the last right character for consecutive right characters.\
+Hower it causes duplicates.
+
+Example:\
+()())r)\
+We found invalid substring when we get to index 4.\
+We can remove index 4 or index 1, resulting\
+()()r)\
+(())r)
+
+When processing the resulting strings above, we find invalid at last index.\
+They can both produce result below:\
+(()r)
+
+What a tricky one!
