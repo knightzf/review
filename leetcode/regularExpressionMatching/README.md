@@ -13,3 +13,8 @@ It becomes obvious that linear search hardly does any good and I haven't even st
 Then I looked at the solutions provided by other people. It tackles the problem using a dp algorithm, basically it checks the current matching result by checking on a few conditions and previous matching results. It's much easier to think of different cases as there are only a few. This means even if s.subtr(0, i -1) doesn't match p.substr(0, j - 1), s.subtr(0, i -1) could match p.substr(0, j). For example s is ab and p is abc*, when look at ab and abc, they don't match but ab can be matched to abc*.
 
 The heart of the dp solution is to define the initial states, why match[0][0] is true I haven't figured out but that's the only really prerequisite of the solution.
+
+4/1\
+This is my second time doing this, with the knowledge that this is a dp problem.\
+Still took me quite some time however I was able to find the dp transition formula by myself this time.\
+Very happy as this shows I really understand this problem.
