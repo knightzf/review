@@ -15,3 +15,6 @@ The special case is handled by the sorting.
 The actual code is pretty short but the idea is really hard.
 
 The other way, instead of using a multiset, we can use a heap to store the heights, it needs to support add, remove and update which requires a hand written heap class.
+
+4/1\
+Did this problem again, by myself, now I can say I have a better understanding of this type of problem.
