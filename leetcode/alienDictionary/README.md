@@ -19,3 +19,8 @@ Thoese with degrees that can never be 0.
 For example, suppose a < b and b < a, they both have degree 1. And there's no chance to reduce it.
 
 It's very similar to the lexicographical order problem solution.
+
+4/3\
+Saw this problem again, still got to the same issue.\
+Easy to find pair relations, but hard to trace the chain.\
+The idea of having a degree is key.
