@@ -20,7 +20,7 @@ public:
         int t = 0;
         for(const auto& p : v)
         {
-            if(p.second) ++t;
+            if(p.second > 0) ++t;
             else --t;
             res = max(res, t);
         }
