@@ -21,3 +21,8 @@ In this case, the end idx will need to move further to the right in order to fin
 It can be generalized for all such substring problems. Very smart and it's like backtracking.
 
 I tried to think of a dp solution but doesn't seem to fit into the dp model.
+
+4/8\
+Did the problem again, managed to work but code looks ugly.\
+This is a very good summaration of the general substring problem.\
+https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
