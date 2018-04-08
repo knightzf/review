@@ -22,16 +22,6 @@ public:
 
         return res;
     }
-
-    int hammingDistance(int r) {
-        int res = 0;
-        while(r)
-        {
-            if(r & 1) ++res;
-            r >>= 1;
-        }
-        return res;
-    }
 };
 
 int main()
