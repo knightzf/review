@@ -3,10 +3,10 @@ My solution is straightfoward but need to handle quie a few different corner cas
 In the discussion there's a greate solution.\
 https://leetcode.com/problems/decode-ways-ii/discuss/105274/Python-Straightforward-with-Explanation
 
-The idea is to keep track of 3 numbers:\
-* e0 = current number of ways we could decode, ending on any number;\
-* e1 = current number of ways we could decode, ending on an open 1;\
-* e2 = current number of ways we could decode, ending on an open 2;\
+The idea is to keep track of 3 numbers:
+* e0 = current number of ways we could decode, ending on any number;
+* e1 = current number of ways we could decode, ending on an open 1;
+* e2 = current number of ways we could decode, ending on an open 2;
 
 (Here, an ¡°open 1¡± means a 1 that may later be used as the first digit of a 2 digit number, \
 because it has not been used in a previous 2 digit number.)
