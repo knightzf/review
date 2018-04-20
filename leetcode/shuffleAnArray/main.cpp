@@ -20,7 +20,7 @@ public:
         for(int i = 0; i < n; ++i)
         {
             int r = rand() % (n - i);
-            std::swap(t[i], t[r]);
+            std::swap(t[i], t[i + r]);
         }
         return t;
     }
