@@ -40,11 +40,11 @@ public:
         }
 
         NestedInteger t;
-        for(int i = startIdx + 1; i < endIdx;)
+        for(int i = startIdx + 1; i < endIdx - 1;)
         {
             if(s[i] == '[')
             {
-                int j = i;
+                int j = i + 1;
                 int cnt = 1;
                 while(j < endIdx && cnt)
                 {
@@ -54,10 +54,6 @@ public:
                 }
                 t.add(impl(s, i, j));
                 i = j + 1;
-            }
-            else if(s[i] == ']')
-            {
-                return t;
             }
             else
             {
