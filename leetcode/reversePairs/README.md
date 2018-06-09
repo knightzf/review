@@ -17,8 +17,8 @@ Review of BIT\
    idx 7 is sum of nums[7]\
    idx 6 is sum of nums[5] and nums[6]\
 6. Because it's traditionally used to find sum of range, for insertion, it inserts into idx + (idx & (-idx))\
-7. For look up, it sums values of idx - (idx & (-idx))\
-8. We notice the insertion stops when idx is larger than the range and for look up, it stops at idx that is power of 2.\
+7. For look up, it sums values of idx - (idx & (-idx)), basically it'll stop at an idx that's power of 2\
+8. We notice the insertion stops when idx is larger than the range\
 9. Because of this property, we can construct and look up sum of ranges.\
 
 For this problem\
