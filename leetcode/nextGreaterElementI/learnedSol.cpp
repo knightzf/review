@@ -8,10 +8,9 @@ public:
         for(int i = 0; i < n; ++i)
             m[nums[i]] = i;
 
-        vector<int> res(findNums.size());
+        vector<int> allRes(n);
         stack<int> s;
-        int k = findNums.size() - 1;
-        for(int i = n - 1; i >= 0 && k >= 0; --i)
+        for(int i = n - 1; i >= 0; --i)
         {
             int t = -1;
             while(!s.empty())
@@ -19,16 +18,19 @@ public:
                 if(nums[i] > s.top())
                     s.pop();
                 else
+                {
                     t = s.top();
+                    break;
+                }
             }
             s.push(nums[i]);
-
-            if(m[findNums[k]] == i)
-            {
-                res[k] = t;
-                --k;
-            }
+            allRes[i] = t;
         }
+
+        vector<int> res;
+        res.reserve(findNums.size());
+        for(int i : findNums)
+            res.push_back(allRes[m[i]]);
         return res;
     }
 };
