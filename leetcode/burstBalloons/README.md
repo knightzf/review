@@ -14,3 +14,11 @@ It's defined as the max number of coins from i to j without popping i or j (they
 
 For each dp[i][j] we need to try all possible last pop points between i and j.\
 So we use a size K to denote the length between i and j, start from 2. Rest is natual.
+
+7/1\
+This is after encountering a similar problem remove boxes\
+This type of problem can be solved recursively but a direct divide will result in two sub problems that depend on each other.\
+This type of problem is not self containing thus impossible to find a recursive solution.\
+However the key is we can change how we define the problem to include extra information so that it becomes self containing.\
+Here the extra information is left and right bound index, thus the dp becomes dp[i, j, leftIdx, rightIdx].\
+There's another key is instead of divide the problem by the first move, we divide it by the last move so two subproblems no longer depend on each other.
