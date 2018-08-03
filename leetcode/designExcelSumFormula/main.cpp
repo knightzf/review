@@ -44,7 +44,7 @@ private:
     void parse(vector<pair<int, int>>& v, const string& str)
     {
         auto f = [](const auto& str) {
-            return make_pair(stoi(str.substr(1)), str[0] - 'A');
+            return make_pair(stoi(str.substr(1)) - 1, str[0] - 'A');
         };
 
         auto g = [&](const auto& str) {
