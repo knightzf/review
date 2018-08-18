@@ -10,3 +10,8 @@ Then it's just a conversion of decimal number to 9 based number.
 Talked to a friend today and he remined me that taking out any number is the same as taking out number 9. It's still a 9 based system, the only difference is the 9 digits are different. We only need to adjust the result by replacing numbers (for example if we take out 7, then the resulting 7 is 8, 8 is 9.)
 
 Also works if we take out any number of numbers, same idea of replacement.
+
+8/17/18\
+Tried to do this problem again after one year.\
+I still went to the first idea by checking the patterns which this time I actually pulled off.\
+The idea of treating this like a 9 based number is still much more elegant.
