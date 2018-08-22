@@ -10,3 +10,7 @@ So it comes back to this undeterministic problem that the solution can change if
 In my understanding, dp is to cover all the possible cases by start from point 0 and use a few relatively simple rules to calculate rest of the array.
 
 It is not hard to understand what the code is doing however it's sill a question of how the relatively simple rules are concluded and why they will give the optimal solution.
+
+8/21/18\
+Tried to do this problem again, after long thinking, I came to the same solution as the previous learned solution.\
+I was trying to think of better dp algorithms however it seems O(N^3) is the best we can get.
