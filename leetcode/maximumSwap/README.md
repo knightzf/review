@@ -8,3 +8,7 @@ And there was some back and forth when I realized my first solution has bug in i
 Looking at discussion, there's a really great solution.\
 One scan and keep the swap index candiates. Really beautiful.\
 https://leetcode.com/problems/maximum-swap/discuss/107073/C++-one-pass-simple-and-fast-solution:-1-3ms-O(n)-time
+
+8/23/18\
+Tried second time, came up with a better solution.\
+Still not as efficient as the above referred solution but is easy and short.
