@@ -22,7 +22,7 @@ public:
         }
 
         int res = 0;
-        for(int i = 1; i < n; ++i) {
+        for(int i = 0; i < n; ++i) {
             if(dp[i].first == maxLen) res += dp[i].second;
         }
         return res;
