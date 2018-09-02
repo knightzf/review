@@ -1,0 +1,1 @@
+I was happy that I found as long as K > 1, it's basically a sorting that can always sort the string into order.
