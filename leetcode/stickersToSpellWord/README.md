@@ -19,3 +19,12 @@ https://discuss.leetcode.com/topic/106273/c-java-python-dp-memoization-with-opti
 3. DP logic is not linear like dp[i] from dp[i - 1].
    It's try to apply ticker to target and get resulting string consisted of remaining letters.
    So this recursion will yield dp[some string] then get dp[target].
+
+9/5/18\
+Attempted the problem again, this time my solution is basically same as the learned solution, thanks to\
+the growth of experience.\
+However I spent a lot of time thinking what is the best approach.\
+It feels very awksward even thought there's only 26 possible characters.\
+As we'll need to essentially carray so many vectors around.\
+This time I used string itself but it's slow to construct a new string after deducing elements.\
+So the performance is even slower than learned solution.
