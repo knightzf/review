@@ -1,0 +1,1 @@
+Learned the way to use lambda with priority_queue.
