@@ -23,3 +23,9 @@ In the end, the low should merge into the target number.
 For the logic to count numbers less than target, loop through numbers and find diffs. The key is not to reset j to i, but leave it here.
 
 That's because when you find the first j that nums[j] - nums[i] > k, increase i by 1, now nums[j] - nums[i] is likely to be no bigger than k so we don't need to reset j.
+
+9/24/18\
+Tried this for the second time, this time used binary search and had some extra logic to account for the case where there's multiple pairs with same distance.\
+However the efficiency is not as good as the seeming scan solution.\
+This is because scan is essentially O(N), mine is logN.\
+Anyways I am happy to find the solution myself this time.
