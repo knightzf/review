@@ -11,11 +11,11 @@ The result we want is sum of number of expressions used by each digit.\
 But we can't simply sum it up because there can be overlappings between digits which changes the result total.\
 So we do it accumulatively.\
 We use 2 numbers: 
-# number of operators from 0 to i when it forms the target we want
-# number of operators from 0 to i when it forms the number that we can subtract from x^(i) to get the target
+* number of operators from 0 to i when it forms the target we want
+* number of operators from 0 to i when it forms the number that we can subtract from x^(i) to get the target
 
 That was not clean in the explanation which took me very long time to finally understand.\
 Also note:
-# Each term has counted sign as an operator so we need to subtract 1 in the end
-# To form number of second case using a previous result of second case will have overlap which we must account for
-## e.g. when x is 10, (100 - 20) + (10 - 4), where first term contains -20 and second term contains 10
+* Each term has counted sign as an operator so we need to subtract 1 in the end
+* To form number of second case using a previous result of second case will have overlap which we must account for
+** e.g. when x is 10, (100 - 20) + (10 - 4), where first term contains -20 and second term contains 10
