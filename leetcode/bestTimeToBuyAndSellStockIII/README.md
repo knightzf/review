@@ -25,3 +25,9 @@ Because there are two possibilities
 2. dp[i - 1][k] sells at k, which makes it possible to be selling at j and buying at j again, which violates the restriction.
 
    But if we sell at j and buy at j, that essentially means we did nothing, which is a valid case.
+
+3/19\
+Looked at the problem again, I knew it's a dp problem but the transition formula I came up didn't seem to work.\
+After inspecting the numbers, it turns out you need to properly set initial value.\
+Looked at previous learned solution, it's actually quite tricky, I'm still not 100% understanding it.
+
