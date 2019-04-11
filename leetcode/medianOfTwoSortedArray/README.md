@@ -23,3 +23,6 @@ The core idea is to think of the question of find i, j in array A and B, so that
     6. The binary search and condition check is a little tricky but not the end of day.
 
 The link to the full explain is https://discuss.leetcode.com/topic/4996/share-my-o-log-min-m-n-solution-with-explanation
+
+4/2019\
+2 years later, still amazed by the great thought of the answer.
