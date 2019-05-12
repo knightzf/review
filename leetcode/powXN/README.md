@@ -1,0 +1,1 @@
+Even for such a simple problem, learned solution is so much more elegant than mine.

@@ -18,3 +18,6 @@ The heart of the dp solution is to define the initial states, why match[0][0] is
 This is my second time doing this, with the knowledge that this is a dp problem.\
 Still took me quite some time however I was able to find the dp transition formula by myself this time.\
 Very happy as this shows I really understand this problem.
+
+4/2019\
+Still amazed by how simple and elegant the learned solution is.

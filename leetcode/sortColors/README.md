@@ -4,3 +4,8 @@ Thanks to Sheng's idea, the algo basically swaps numbers depends on current star
 
 4/2\
 The problem is non-trivial. But this time I figured out solution by myself.
+
+4/19\
+Did this again, improved from last time.\
+The only trick is how to manage the index i.\
+Without using while, it tooke me a while to figure out.

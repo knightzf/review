@@ -8,3 +8,10 @@ It's not very efficient as it creates a lot of invalid strings.
 
 The learned solution is a recursive way. It's easy to follow.
 The problem is I still don't know how to prove it creates all valid combinations.
+
+4/19\
+My sol 2 is easy to understand as it is a recursion of sub problems.\
+The backtracking one is much better in efficiency but it's a bit hard to come up with.\
+The idea with backtracking is nothing but a dfs but there needs to be tricks to\
+make sure there is no invalid result. 
+https://leetcode.com/problems/generate-parentheses/discuss/10096/4-7-lines-Python

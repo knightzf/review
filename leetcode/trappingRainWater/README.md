@@ -11,3 +11,11 @@ If the numbers in the array are descending, the loop above won't be able to capt
 Why? Because we don't want to calcualte same area twice is the numbers in the range are for example [2, 0, 2].
 
 These kind of problems are really logical reasoning and I am not very good at them.
+
+4/19
+My sol 2 uses 3 scans to get max left and mex right for each index and finally \
+compute how much water each position can contain.\
+There is a even better solution by moving from both sides to middle, essentially\
+two pointer solution where it keep comparing left and right max and we know for\
+each position how much water it can contain. Similar idea but more brilliant!
+https://leetcode.com/problems/trapping-rain-water/discuss/17391/Share-my-short-solution.

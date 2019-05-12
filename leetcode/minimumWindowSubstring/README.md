@@ -26,3 +26,7 @@ I tried to think of a dp solution but doesn't seem to fit into the dp model.
 Did the problem again, managed to work but code looks ugly.\
 This is a very good summaration of the general substring problem.\
 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+
+4/19\
+Did it again, got the right soltuion.\
+But it's good to review the general template.

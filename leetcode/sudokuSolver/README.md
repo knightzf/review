@@ -9,3 +9,7 @@ Instead it uses a more complex data strucutre to keep the list of possible solut
 Also for backtracking, it loops back to first possible point and reset all points along the path.
 
 The failed solution is to look at each point and check their possible values, it assumes there's always at least one point with only one possible value, which is not the case for most of the sudoku problems.
+
+4/19\
+My sol 2 uese straightforward dfs backtracking, which is very slow.\
+Checked the reason, it was due to the validation is unncessarily full grid validation.
