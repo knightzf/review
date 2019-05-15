@@ -31,3 +31,10 @@ Looked at the problem again, I knew it's a dp problem but the transition formula
 After inspecting the numbers, it turns out you need to properly set initial value.\
 Looked at previous learned solution, it's actually quite tricky, I'm still not 100% understanding it.
 
+
+5/19\
+Did it again using two dp arrays, which isn't terribly efficient however very\
+clean to understand. \
+There's a better solution in discussion which is also very easy to understand.\
+Just need to set the initial valus right.
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/discuss/39611/Is-it-Best-Solution-with-O(n)-O(1).
