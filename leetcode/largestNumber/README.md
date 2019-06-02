@@ -21,3 +21,12 @@ Correct order should be 84 847 instead of 847 84
 Finally i thought, maybe I should compare last digit with first digit and decide which one to use to fill the numbers.
 
 The other tricky part is to remove 0s from left.
+
+5/19\
+I encountere exact same issue this time.\
+Same thinking process and tried same approaches.\
+In the end, I realized instead of trying to fill the remaining characters by\
+choosing some value, what we are doing is to compare to strings and the key\
+of comparison is which one is larger a + b or b + a, then this is the exact\
+compare function we need.\
+Glad I made a little improvement this time.
