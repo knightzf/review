@@ -25,3 +25,7 @@ if( a & b == 1) means
 if( a & (b == 1))
 
 Very tricky! Never thought of one day I needed to know details like this!
+
+6/19\
+Very tricky, the key is how to devide the existing numbers into two groups\
+where numbers that appear twice will be in the same group.

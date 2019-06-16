@@ -1,0 +1,1 @@
+It can be done a little better as we don't really need to store the diff.

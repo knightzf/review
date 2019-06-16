@@ -4,3 +4,8 @@ I've forgotten the partition algo. So basically it uses last element as pivot va
 
 4/3\
 Review of quick sort again...
+
+6/19\
+The code is a little tricky, more tricky than quick sort as we only care about\
+the kth element, so we need to make sure the pivot number is at correct pos\
+at the end of the partition code.

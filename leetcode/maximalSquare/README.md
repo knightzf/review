@@ -8,3 +8,7 @@ However it's not very efficient to find the max square at each historgram point
 
 Here is a very good solution using dp, the dp transition formula is hard to get without looking at the answer\
 https://leetcode.com/problems/maximal-square/discuss/61803/Easy-DP-solution-in-C++-with-detailed-explanations-(8ms-O(n2)-time-and-O(n)-space)
+
+6/19\
+My third try is a little clumsy and the learned solution is beautifullly simple\
+and straighforward.
