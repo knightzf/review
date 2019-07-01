@@ -56,3 +56,12 @@ Problems worth revisiting:\
 275
 277
 281
+282 dfs, no great solution
+287
+296
+300
+301
+307 segment tree, able to do it myself
+308 2d binary indexed tree
+310 
+314

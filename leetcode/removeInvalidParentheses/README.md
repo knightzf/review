@@ -30,3 +30,6 @@ They can both produce result below:\
 (()r)
 
 What a tricky one!
+
+6/19\
+Even when I knew the general idea, it's so hard to implement correctly.
