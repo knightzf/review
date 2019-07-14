@@ -11,4 +11,4 @@
     * Create indegree and outdegree maps
     * Find 0 outdegree items
     * Iteratively update the outdegree map by referring to indegree map and insert new free items
-
+* knapsack problem or set cover problem, use dp for all problem space

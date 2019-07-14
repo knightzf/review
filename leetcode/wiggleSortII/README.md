@@ -40,3 +40,9 @@ For each i, find its mapped index and check the if the number is equal to, large
 If larger, swap with mapped index of left and increase i and left.\
 If less, swap with mapped index of right and decrease right.\
 If equal, increase i.
+
+7/19\
+The learned solution is easier to understand than the virtual index solution.\
+The key is to put big numbers on odd indices from left.\
+And put small numbers on even indices from right.\
+So that numbers equal median will be put to two sides of the array.

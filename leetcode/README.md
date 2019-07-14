@@ -65,3 +65,26 @@ Problems worth revisiting:\
 308 2d binary indexed tree
 310 
 314
+315 binary search tree
+316 correct idea but not as fast
+322 performance between vector and unordered_map is huge
+324 really hard to understand 
+326 not much, a little tricky
+327 segment tree or merge sort solution
+336 find rest of string instead of concat
+337 point is how to define the problem
+341 there's better solution than using pair of iterator
+347 easy but need to think in a different way
+348 easy O(n) but can keep count in each row/col(use 1 for p1 and -1 for p2)
+358 seemingly dumb algo but actually works
+374 bit oper, keep shifting the and result to left until it's 0
+377 medium, thought for a while
+378 merge n sorted arrays or binary search
+380 very brilliant solution
+394 tricky to get right
+395 thought for a bit, divide and conquer
+399 dfs
+402 was able to do it but learned sol is better
+407 priority queue solution is hard to think of
+410 dp is slow, binary search is a great idea
+416 knapsack problem

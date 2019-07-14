@@ -65,3 +65,7 @@ The transition formula is:\
 dp[i][j] = dp[i - 1][j] + dp[i][j - nums[i]]\
 From above, we can observe i isn't really necessary in the dp, we can then convert it to 1d.\
 Spent so much about on this problem and now I think I have a better understanding of such problems.
+
+7/19\
+The original solution no longer works due to integer overflow.\
+Tried with top down approach which worked, however dfs also has it's own issue.

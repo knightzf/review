@@ -10,3 +10,7 @@ It is done using a similar merge sort with counting method.
 
 The count however is different from normal merge.\
 For each index in the left part, find the range in the right part and add the size of range to result.
+
+7/19\
+Had the correct thinking of using binary tree, but was thinking too aggressive\
+causing wrong answer.
