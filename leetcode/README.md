@@ -88,3 +88,15 @@ Problems worth revisiting:\
 407 priority queue solution is hard to think of
 410 dp is slow, binary search is a great idea
 416 knapsack problem
+426 my sol is too complex
+430 not difficult, but hard to get it all correct
+432 hard to think of the data structure
+435 interval scheduling
+437 record accumulative sum, not all possible sum values
+440 treat is like a tree, but quite hard to understand
+445 easy, but can use a stack
+446 actually not too hard
+448 easy but there's a great way to do it
+450 hard to find a elegant recursive sol
+478 math prob
+491 smart way to avoid using set 

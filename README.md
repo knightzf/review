@@ -12,3 +12,5 @@
     * Find 0 outdegree items
     * Iteratively update the outdegree map by referring to indegree map and insert new free items
 * knapsack problem or set cover problem, use dp for all problem space
+* Great article about range problems
+    * https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
