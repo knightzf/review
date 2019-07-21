@@ -100,3 +100,7 @@ Problems worth revisiting:\
 450 hard to find a elegant recursive sol
 478 math prob
 491 smart way to avoid using set 
+494 there is a smarter way to find subset that sums to a value
+496 use stack
+518 knapsack 2d->1d dp
+535 base64 encode number to 6 digit string
