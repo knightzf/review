@@ -104,3 +104,7 @@ Problems worth revisiting:\
 496 use stack
 518 knapsack 2d->1d dp
 535 base64 encode number to 6 digit string
+554 no need for merge sort, just count most common brick ending index
+564 hard to get it right and clean
+593 great thinking
+621 greedy sol is hard to prove
