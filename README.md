@@ -14,3 +14,5 @@
 * knapsack problem or set cover problem, use dp for all problem space
 * Great article about range problems
     * https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
+* Solve rectangle problem by counting number of lines
+* Convert array into increasing array using deque by poping out elements >= incoming element

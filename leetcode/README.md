@@ -108,3 +108,19 @@ Problems worth revisiting:\
 564 hard to get it right and clean
 593 great thinking
 621 greedy sol is hard to prove
+652 need the correct traversal
+654 iterative sol is brilliant
+673 tried to avoid n^2 but there's no better sol
+686 kmp 
+687 brilliang sol
+689 i have similar idea but not as good
+691 standard dfs, the optimization is tricky
+692 simple priority queue
+699 N^2 sol is actually best sol
+713 took me a while to find this is a sliding window prob
+750 solve rectangle problem by counting number of lines
+764 simple problem but the solution is amazingly elegant
+766 simple yet clever sol
+801 similar to buy sell stock
+862 convert a prob into a sliding window prob on increasing array
+
