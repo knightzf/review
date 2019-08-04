@@ -16,3 +16,6 @@
     * https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
 * Solve rectangle problem by counting number of lines
 * Convert array into increasing array using deque by poping out elements >= incoming element
+* Bit operations
+    * Negative number is get the opposite then + 1
+    * i & -1 keeps last 1 bit

@@ -23,55 +23,55 @@ Problems worth revisiting:\
 81
 92
 98
-99
-111
-117
-122
+99 Tricky in locating the two nodes, choose first one or second?
+111 Easy but also easy to get wrong
+117 Level traversal is elegant
+122  
 128
-145
-148
-153
+145 do preorder and reverse or use a flag for each node state
+148 merge sort, trick in how to find middle and use dummy head 
+153 if need to compare right half of binary search, need to use h = n - 1
 154
-155
+155 a bit tricky, only need one stack
 161
 162
-168
-179
+168 tricky in terms of the 26-nary number doesn't contain 0
+179 need to sort properly
 188
 198
 207
 208
-212
-215
-220
-221
-222
-238
-239
+212 use trie and dfs
+215 binary search with partition
+220 bucket sorting to get O(N)
+221 can be done in one loop using dp
+222 check depth of left most and right most see if they equal
+238 multiply from left to right and right to left
+239 monoqueue
 240
 259
-260
-261
+260 bit operation, i & -1 gives last 1 bit. only one number has 1 at here.
+261 check edge count to see if all connected, use union find for validation
 269
-275
-277
+275 binary search always a little tricky
+277 one pass to find candidate by only checking larger ids
 281
 282 dfs, no great solution
 287
 296
-300
-301
+300 tricky
+301 dfs but hard to write
 307 segment tree, able to do it myself
 308 2d binary indexed tree
 310 
 314
-315 binary search tree
+315 binary search tree or merge sort
 316 correct idea but not as fast
 322 performance between vector and unordered_map is huge
-324 really hard to understand 
+324 nth_element is easy to think about, rearrange indx is really hard 
 326 not much, a little tricky
-327 segment tree or merge sort solution
-336 find rest of string instead of concat
+327 segment tree or merge sort solution (think of the prob differently)
+336 tricky, find rest of string instead of concat
 337 point is how to define the problem
 341 there's better solution than using pair of iterator
 347 easy but need to think in a different way
@@ -123,4 +123,10 @@ Problems worth revisiting:\
 766 simple yet clever sol
 801 similar to buy sell stock
 862 convert a prob into a sliding window prob on increasing array
-
+863 can build a graph and do bfs, which is cleaner than my sol
+886 actually dfs/bfs prob
+889 great way to construct tree from array
+918 simple problem, great solution
+958 recursive sol is beautiful
+968 dp works but the greedy sol is much better 
+1008 actually direct insertion works however there's better sol
