@@ -97,7 +97,7 @@ Problems worth revisiting:\
 445 easy, but can use a stack
 446 actually not too hard
 448 easy but there's a great way to do it
-450 hard to find a elegant recursive sol
+450 hard to find a elegant recursive sol (the essense of recursion)
 478 math prob
 491 smart way to avoid using set 
 494 there is a smarter way to find subset that sums to a value
@@ -105,15 +105,15 @@ Problems worth revisiting:\
 518 knapsack 2d->1d dp
 535 base64 encode number to 6 digit string
 554 no need for merge sort, just count most common brick ending index
-564 hard to get it right and clean
+564 prefix to number and add [-1, 0, 1] as possible results
 593 great thinking
-621 greedy sol is hard to prove
+621 after tasks with maxcnt, rest fit in empty or append to each section
 652 need the correct traversal
 654 iterative sol is brilliant
 673 tried to avoid n^2 but there's no better sol
 686 kmp 
 687 brilliang sol
-689 i have similar idea but not as good
+689 fix mid section and get max from left and right 
 691 standard dfs, the optimization is tricky
 692 simple priority queue
 699 N^2 sol is actually best sol

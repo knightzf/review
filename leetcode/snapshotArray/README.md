@@ -1,0 +1,1 @@
+Can save history of each element instead of whole thing.
