@@ -1,55 +1,30 @@
-#include <iostream>
+#include "header.h"
 
-using namespace std;
-
-void swap(int* a, int* b)
-{
-    if(a == NULL || b == NULL || a == b)
-        return;
-
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
-void quicksort(int* a, int size)
-{
-    if(a == NULL || size == 0 || size == 1)
-        return;
-
-    int pivot = a[0];
-    swap(&a[0], &a[size-1]);
-
-    int* p = &a[0];
-    for(int i = 0; i < size - 1; ++i)
-    {
-        if(a[i] <= pivot)
-        {
-            swap(p, &a[i]);
-            ++p;
+class Solution {
+public:
+    int partition(vector<int>& v, int l, int h) {
+        int m = (l + h) / 2, pivot = v[m];
+        while(true) {
+            while(v[l] < pivot) ++l;
+            while(v[h] > pivot) --h;
+            if(l >= h) return h;
+            swap(v[l++], v[h--]);
         }
+        return -1;
     }
 
-    swap(p, &a[size-1]);
-
-    int left_size = p - a;
-    int right_size = size - left_size - 1;
-
-    quicksort(a, left_size);
-    quicksort(p+1, right_size);
-}
+    void quicksort(vector<int>& v, int l, int h) {
+        if(l >= h) return;
+        int idx = partition(v, l, h);
+        quicksort(v, l, idx);
+        quicksort(v, idx + 1, h);
+    }
+};
 
 int main()
 {
-    int a[] = {5, 1, 18, 5, 6, 3, 2, 0};
-    int size = sizeof(a)/sizeof(int);
-    quicksort(a, size);
-
-    for(int i = 0; i < size; ++i)
-    {
-        std::cout<<a[i]<<"-";
-    }
-    std::cout<<std::endl;
-
-    return 0;
+    Solution s;
+    vector<int> a{0};
+    s.quicksort(a, 0, a.size() - 1);
+    for(int i : a) cout<<i<<" "; cout<<endl;
 }
