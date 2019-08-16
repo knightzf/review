@@ -1,0 +1,6 @@
+Problems worth revisiting:
+753 math prob, de brujin sequence, otherwise just dfs
+913 need assumption of finite 2*n steps, also tricky in result deduction
+947 another type of count the islands, tricky to use union find
+1066 dfs with memorization
+1096 state maybe one ele or a list, premature union is bad(unlike calculator)

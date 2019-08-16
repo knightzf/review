@@ -1,0 +1,1 @@
+Given limited possible distances, bucket is faster than sorting.
