@@ -18,3 +18,13 @@ With the assumption, the code is actually simple dfs, the trick of the result\
 is for all possible next steps, if current player can win, then
 we know there's deterministic result. Otherwise if not all the possible results\
 are for the opponent to win, then it's a draw.
+
+The rigid solution is a topological sort, where we first define degree of state\
+by checking at number of edge, then color knonw states, then do bfs.\
+The tricky about bfs is also similar to the above solution where we need to\
+clearly remember what we want, if the current turn is mouse, we will mark color\
+to mouse if possible, then draw, then cat.\
+The way it determines lose is very smart in that it decreases degree of state\
+and when degree is 0 we know there's no way we can get our desired result, \
+we'll mark the state to lose.\
+Draw state is the default state so that any state we can't decide will remain draw.
