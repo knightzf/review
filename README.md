@@ -19,3 +19,6 @@
 * Bit operations
     * Negative number is get the opposite then + 1
     * i & -1 keeps last 1 bit
+* Two ways to partition
+    * One: result will have elements < condition first, >= condition rest. For duplicates, it will either contain all duplicates or none, such as 1 ~ 2 2 2 3. We'll need another partition that have element <= condition first, > condition reset. e.g. 1 2 2 2 ~ 3 in order to sort or find kth. 
+    * Two: result will have elements <= conditions first, >= conditions rest, such as 2 1 1 ~ 2 2, so that first k elements will be the k elements if sorted

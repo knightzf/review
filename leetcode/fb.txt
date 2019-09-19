@@ -38,16 +38,16 @@ Problems worth revisiting:
 168 tricky in terms of the 26-nary number doesn't contain 0
 179 need to sort properly
 188
-198
+198 dp definition doesn't require it rob nums[i]
 207
 208
 212 use trie and dfs
 215 binary search with partition
-220 bucket sorting to get O(N)
+220 bucket sorting to get O(N) while maintain windows size <=k, smart
 221 can be done in one loop using dp
 222 check depth of left most and right most see if they equal
 238 multiply from left to right and right to left
-239 monoqueue
+239 monoqueue, hard to get right
 240
 259
 260 bit operation, i & -1 gives last 1 bit. only one number has 1 at here.
@@ -64,7 +64,7 @@ Problems worth revisiting:
 307 segment tree, able to do it myself
 308 2d binary indexed tree
 310 
-314
+314 can do bfs from root
 315 binary search tree or merge sort
 316 correct idea but not as fast
 322 performance between vector and unordered_map is huge
@@ -77,14 +77,14 @@ Problems worth revisiting:
 347 easy but need to think in a different way
 348 easy O(n) but can keep count in each row/col(use 1 for p1 and -1 for p2)
 358 seemingly dumb algo but actually works
-374 bit oper, keep shifting the and result to left until it's 0
+371 bit oper, keep shifting the and result to left until it's 0
 377 medium, thought for a while
 378 merge n sorted arrays or binary search
 380 very brilliant solution
 394 tricky to get right
 395 thought for a bit, divide and conquer
 399 dfs
-402 was able to do it but learned sol is better
+402 should use stack and pop out number > current number
 407 priority queue solution is hard to think of
 410 dp is slow, binary search is a great idea
 416 knapsack problem
@@ -95,7 +95,7 @@ Problems worth revisiting:
 437 record accumulative sum, not all possible sum values
 440 treat is like a tree, but quite hard to understand
 445 easy, but can use a stack
-446 actually not too hard
+446 actually just n^2
 448 easy but there's a great way to do it
 450 hard to find a elegant recursive sol (the essense of recursion)
 478 math prob

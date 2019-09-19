@@ -1,7 +1,14 @@
 Problems worth revisiting:
+241 very good prob, key is how to divide the problem and avoid dup
+465 dfs, no better solution, will easily time out when n is large
+731 idea is not hard, code is hard, there's simpler O(n) sol
+736 tokenize and recursive is easier, also pass substrings is eaiser
 753 math prob, de brujin sequence, otherwise just dfs
+818 still no solid proof why the solution is correct
+833 can do it from right to left to avoid index change
 857 two variables, cost and quality, use priority_queue 
 913 need assumption of finite 2*n steps, also tricky in result deduction
+943 traveling salesman problem, idea is not hard, implem is not easy
 947 another type of count the islands, tricky to use union find
 1066 dfs with memorization
 1096 state maybe one ele or a list, premature union is bad(unlike calculator)

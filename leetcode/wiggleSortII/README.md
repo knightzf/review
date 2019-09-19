@@ -46,3 +46,26 @@ The learned solution is easier to understand than the virtual index solution.\
 The key is to put big numbers on odd indices from left.\
 And put small numbers on even indices from right.\
 So that numbers equal median will be put to two sides of the array.
+
+8/21
+Now I have a better understanding of the index mapping.
+This is essentially color sorting, we want to put large, medium, small numbers on the final indexs \
+1 3 5 7 0 2 4 6 8\
+That's why we can do the sorting using the virtual index.\
+This is the color sorting code, need to pay attention to the change of curr, p0, p2.
+```c++
+void sortColors(vector<int>& nums) {
+    int p0 = 0, curr = 0;
+    int p2 = nums.size() - 1;
+
+    while (curr <= p2) {
+        if (nums[curr] == 0) {
+            swap(nums[curr++], nums[p0++]);
+        }
+        else if (nums[curr] == 2) {
+            swap(nums[curr], nums[p2--]);
+        }
+        else curr++;
+    }
+                                                                                            }
+```
