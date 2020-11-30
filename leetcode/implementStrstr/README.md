@@ -5,3 +5,6 @@ Also when to stop the loop is tricky, it can have a huge impact on performance b
 Revisited KMP algorithm and implemented.\
 It's sort of a dp solution to build the prefix array.\
 Simple after understanding it.
+
+11/29/20\
+Needed to review the algo at https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
