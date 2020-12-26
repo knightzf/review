@@ -25,7 +25,7 @@ Problems worth revisiting:
 98
 99 Tricky in locating the two nodes, choose first one or second?
 111 Easy but also easy to get wrong
-117 Level traversal is elegant
+117 Level traversal is elegant *<level traversal algo>
 122  
 128
 145 do preorder and reverse or use a flag for each node state
