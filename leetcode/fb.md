@@ -25,10 +25,10 @@ Problems worth revisiting:
 * 98
 * 99 Tricky in locating the two nodes, choose first one or second?
 * 111 Easy but also easy to get wrong
-* 117 Level traversal is elegant <level traversal algo>
+* #### 117 level traversal algo
 * 122  
-* #### 128 <my solution isn't optimal>
-* 145 do preorder and reverse or use a flag for each node state <good to know two stack sol [link](https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation)>
+* #### 128 my solution isn't optimal
+* #### 145 do preorder and reverse or use a flag for each node state, good to know two stack sol [link](https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation)
 * 148 merge sort, trick in how to find middle and use dummy head 
 * 153 if need to compare right half of binary search, need to use h = n - 1
 * 154
