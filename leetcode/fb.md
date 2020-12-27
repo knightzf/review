@@ -28,11 +28,11 @@ Problems worth revisiting:
 * #### 117 level traversal algo
 * 122  
 * #### 128 my solution isn't optimal
-* #### 145 do preorder and reverse or use a flag for each node state, good to know two stack sol [link](https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation)
-* 148 merge sort, trick in how to find middle and use dummy head 
+* #### 145 do preorder and reverse or use a flag for each node state, good to know [two stack solution](https://leetcode.com/problems/binary-tree-postorder-traversal/discuss/45648/three-ways-of-iterative-postorder-traversing-easy-explanation)
+* #### 148 merge sort, trick in how to find middle and use dummy head 
 * 153 if need to compare right half of binary search, need to use h = n - 1
 * 154
-* 155 a bit tricky, only need one stack
+* #### 155 a bit tricky, only need one stack
 * 161
 * 162
 * 168 tricky in terms of the 26-nary number doesn't contain 0
