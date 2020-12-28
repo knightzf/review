@@ -35,9 +35,9 @@ Problems worth revisiting:
 * #### 155 a bit tricky, only need one stack
 * 161
 * 162
-* 168 tricky in terms of the 26-nary number doesn't contain 0
-* 179 need to sort properly
-* 188
+* #### 168 tricky in terms of the 26-nary number doesn't contain 0
+* #### 179 need to sort properly and corner case
+* #### 188 classic buy/sell stock problem
 * 198 dp definition doesn't require it rob nums[i]
 * 207
 * 208
