@@ -43,8 +43,8 @@ Problems worth revisiting:
 * 208
 * 212 use trie and dfs
 * 215 binary search with partition
-* 220 bucket sorting to get O(N) while maintain windows size <=k, smart
-* 221 can be done in one loop using dp
+* #### 220 bucket sorting to get O(N) while maintain windows size <=k, smart
+* #### 221 can be done in one loop using dp
 * 222 check depth of left most and right most see if they equal
 * 238 multiply from left to right and right to left
 * 239 monoqueue, hard to get right
