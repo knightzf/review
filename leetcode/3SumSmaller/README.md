@@ -4,3 +4,6 @@ The learned solution uses left and right indices and if the sum if less than tar
 
 6/19\
 Took some thoughts and figured out.
+
+12/29/20\
+The learned sol has a bug, it should be `res += right - left;`
