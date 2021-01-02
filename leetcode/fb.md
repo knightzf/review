@@ -47,14 +47,14 @@ Problems worth revisiting:
 * #### 221 can be done in one loop using dp
 * 222 check depth of left most and right most see if they equal
 * 238 multiply from left to right and right to left
-* 239 monoqueue, hard to get right
+* #### 239 deque or monoqueue(hard to get right)
 * 240
 * 259
-* 260 bit operation, i & -1 gives last 1 bit. only one number has 1 at here.
-* 261 check edge count to see if all connected, use union find for validation
+* #### 260 bit operation, i & -i gives last 1 bit. only one number has 1 at here.
+* #### 261 dfs or union find
 * 269
 * 275 binary search always a little tricky
-* 277 one pass to find candidate by only checking larger ids
+* #### 277 one pass to find candidate by only checking larger ids
 * 281
 * 282 dfs, no great solution
 * 287
