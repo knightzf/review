@@ -10,3 +10,6 @@ Now we only need to verify if eveyone knows the candidate and the candiate knows
 
 3/24\
 Tried second time, didn't find the optimal solution.
+
+1/1/2021\
+Use two indices to find a possible candidate, then validate the candidate.
