@@ -21,8 +21,8 @@ private int getMin(List<Integer> list){
 Why this that?\
 It's easy to proof the point that gets min sum distance is somewhere in the range, anything out of the range is going to produce larger result.
 
-If we look at the points in pairs, for this particular point, the sum of distance from itself to first and last element of the array is the distance between first and last element.
+If we look at the points in pairs, for a given pair, the optimal point is between the pair. The total distance is then the distance between the pair.
 
-For any other pairs, the optimal point is between them, anything out of the range will produce larger result.
+For any other pairs, the optimal point is also between them, anything out of the range will produce larger result.
 
 For total sum of distance to be minimum, we want the optimal point to be between all pairs from two sides. Thus the code above.
