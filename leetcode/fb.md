@@ -55,13 +55,13 @@ Problems worth revisiting:
 * 269
 * 275 binary search always a little tricky
 * #### 277 one pass to find candidate by only checking larger ids
-* 281
-* 282 dfs, no great solution
-* 287
-* 296
-* 300 tricky
-* 301 dfs but hard to write
-* 307 segment tree, able to do it myself
+* #### 281 use iterator pair is very smart
+* #### 282 dfs but learned solution is very elegant
+* #### 287 two pointer solution hard to understand
+* #### 296 the solution needs to find the essense of the problem
+* #### 300 dp is natual to get, increasing minimal tail size solution is hard to understand
+* #### 301 dfs but hard to write
+* #### 307 segment tree
 * 308 2d binary indexed tree
 * 310 
 * 314 can do bfs from root
