@@ -62,11 +62,11 @@ Problems worth revisiting:
 * #### 300 dp is natual to get, increasing minimal tail size solution is hard to understand
 * #### 301 dfs but hard to write
 * #### 307 segment tree
-* 308 2d binary indexed tree
-* 310 
+* #### 308 2d binary indexed tree
+* #### 310 bfs from leaves until it reaches the middle node/s
 * 314 can do bfs from root
-* 315 binary search tree or merge sort
-* 316 correct idea but not as fast
+* #### 315 binary search tree or merge sort
+* #### 316 idea is simple, need to think of actual complexity
 * 322 performance between vector and unordered_map is huge
 * 324 nth_element is easy to think about, rearrange indx is really hard 
 * 326 not much, a little tricky
