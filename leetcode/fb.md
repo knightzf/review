@@ -68,7 +68,7 @@ Problems worth revisiting:
 * #### 315 binary search tree or merge sort
 * #### 316 idea is simple, need to think of actual complexity
 * 322 performance between vector and unordered_map is huge
-* 324 nth_element is easy to think about, rearrange indx is really hard 
+* #### 324 nth_element is easy to think about, rearrange indx is really hard 
 * 326 not much, a little tricky
 * 327 segment tree or merge sort solution (think of the prob differently)
 * 336 tricky, find rest of string instead of concat
