@@ -70,11 +70,11 @@ Problems worth revisiting:
 * 322 performance between vector and unordered_map is huge
 * #### 324 nth_element is easy to think about, rearrange indx is really hard 
 * 326 not much, a little tricky
-* 327 segment tree or merge sort solution (think of the prob differently)
-* 336 tricky, find rest of string instead of concat
+* #### 327 segment tree or merge sort solution (think of the prob differently)
+* #### 336 tricky, find rest of string instead of concat
 * 337 point is how to define the problem
-* 341 there's better solution than using pair of iterator
-* 347 easy but need to think in a different way
+* #### 341 elegant code with pair of iterators
+* 347 nth_element or bucket sort
 * 348 easy O(n) but can keep count in each row/col(use 1 for p1 and -1 for p2)
 * 358 seemingly dumb algo but actually works
 * 371 bit oper, keep shifting the and result to left until it's 0
