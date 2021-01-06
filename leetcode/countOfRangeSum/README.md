@@ -14,3 +14,14 @@ For each index in the left part, find the range in the right part and add the si
 7/19\
 Had the correct thinking of using binary tree, but was thinking too aggressive\
 causing wrong answer.
+
+1/5/2021\
+The merge sort solution is great, make it nlogn instead of n^2.\
+The reason it calls the function with (0, n + 1) is the same as calling the function with (1, n + 1) plus the code below
+```c++
+int t = 0;
+for(int i = 1; i < n + 1; ++i) {
+    if(sum[i] >= lower && sum[i] <= upper) ++t;
+}
+return mergeSort(1, n + 1) + t;
+```
