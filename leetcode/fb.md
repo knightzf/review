@@ -76,13 +76,13 @@ Problems worth revisiting:
 * #### 341 elegant code with pair of iterators
 * 347 nth_element or bucket sort
 * 348 easy O(n) but can keep count in each row/col(use 1 for p1 and -1 for p2)
-* 358 seemingly dumb algo but actually works
-* 371 bit oper, keep shifting the and result to left until it's 0
+* #### 358 priority queue (need to handle unsolvable case) or seemingly dumb algo but actually works
+* #### 371 bit oper very smart (a & b << 1 is the carry value)
 * 377 medium, thought for a while
 * 378 merge n sorted arrays or binary search
-* 380 very brilliant solution
-* 394 tricky to get right
-* 395 thought for a bit, divide and conquer
+* #### 380 very brilliant solution
+* 394 use stack isn't too bad
+* #### 395 sliding window * 26 or divide and conquer
 * 399 dfs
 * 402 should use stack and pop out number > current number
 * 407 priority queue solution is hard to think of
