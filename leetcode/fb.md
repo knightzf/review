@@ -84,7 +84,7 @@ Problems worth revisiting:
 * 394 use stack isn't too bad
 * #### 395 sliding window * 26 or divide and conquer
 * 399 dfs
-* 402 should use stack and pop out number > current number
+* #### 402 should use stack and pop out number > current number
 * 407 priority queue solution is hard to think of
 * 410 dp is slow, binary search is a great idea
 * 416 knapsack problem
