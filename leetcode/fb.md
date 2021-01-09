@@ -85,9 +85,9 @@ Problems worth revisiting:
 * #### 395 sliding window * 26 or divide and conquer
 * 399 dfs
 * #### 402 should use stack and pop out number > current number
-* 407 priority queue solution is hard to think of
+* #### 407 priority queue solution is hard to think of
 * 410 dp is slow, binary search is a great idea
-* 416 knapsack problem
+* #### 416 knapsack problem
 * 426 my sol is too complex
 * 430 not difficult, but hard to get it all correct
 * 432 hard to think of the data structure
