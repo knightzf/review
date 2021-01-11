@@ -93,9 +93,9 @@ Problems worth revisiting:
 * #### 432 hard to think of the data structure
 * #### 435 greedy solution is hard
 * #### 437 record accumulative sum, not all possible sum values
-* 440 treat is like a tree, but quite hard to understand
+* #### 440 treat is like a tree, but quite hard to understand
 * 445 easy, but can use a stack
-* 446 actually just n^2
+* #### 446 n^2 but hard to model the problem beautifully
 * 448 easy but there's a great way to do it
 * 450 hard to find a elegant recursive sol (the essense of recursion)
 * 478 math prob
