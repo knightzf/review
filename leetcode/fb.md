@@ -100,7 +100,7 @@ Problems worth revisiting:
 * 450 hard to find a elegant recursive sol (the essense of recursion)
 * #### 478 math prob
 * #### 491 smart way to avoid using set 
-* ### 494 great way to convert the prob and how to avoid duplicates using same dp array during iteration
+* #### 494 great way to convert the prob and how to avoid duplicates using same dp array during iteration
 * 496 use stack
 * 518 knapsack 2d->1d dp
 * 535 base64 encode number to 6 digit string
