@@ -102,12 +102,12 @@ Problems worth revisiting:
 * #### 491 smart way to avoid using set 
 * #### 494 great way to convert the prob and how to avoid duplicates using same dp array during iteration
 * 496 use stack
-* 518 knapsack 2d->1d dp
-* 535 base64 encode number to 6 digit string
+* #### 518 knapsack mind the difference from 494 (unlimited vs binary)
+* #### 535 base62 encode number to 6 digit string (similar to decimal to binary conversion)
 * 554 no need for merge sort, just count most common brick ending index
-* 564 prefix to number and add [-1, 0, 1] as possible results
+* #### 564 prefix to number and add [-1, 0, 1] as possible results
 * 593 great thinking
-* 621 after tasks with maxcnt, rest fit in empty or append to each section
+* #### 621 after tasks with maxcnt, rest fit in empty or append to each section
 * 652 need the correct traversal
 * 654 iterative sol is brilliant
 * 673 tried to avoid n^2 but there's no better sol
