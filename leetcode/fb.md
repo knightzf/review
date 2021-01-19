@@ -108,10 +108,10 @@ Problems worth revisiting:
 * #### 564 prefix to number and add [-1, 0, 1] as possible results
 * 593 great thinking
 * #### 621 after tasks with maxcnt, rest fit in empty or append to each section
-* 652 need the correct traversal
-* 654 iterative sol is brilliant
+* #### 652 need the correct traversal
+* #### 654 iterative sol is brilliant
 * 673 tried to avoid n^2 but there's no better sol
-* 686 kmp 
+* #### 686 kmp 
 * 687 brilliang sol
 * 689 fix mid section and get max from left and right, idx tricky to get right
 * 691 standard dfs, the optimization is tricky
