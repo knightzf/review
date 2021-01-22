@@ -112,8 +112,8 @@ Problems worth revisiting:
 * #### 654 iterative sol is brilliant
 * 673 tried to avoid n^2 but there's no better sol
 * #### 686 kmp 
-* 687 brilliang sol
-* 689 fix mid section and get max from left and right, idx tricky to get right
+* #### 687 tricky to differ total length and longer length, brilliang sol
+* #### 689 fix mid section and get max from left and right, idx tricky to get right
 * 691 standard dfs, the optimization is tricky
 * 692 simple priority queue
 * 699 N^2 sol is actually best sol
