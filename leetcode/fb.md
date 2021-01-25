@@ -114,19 +114,19 @@ Problems worth revisiting:
 * #### 686 kmp 
 * #### 687 tricky to differ total length and longer length, brilliang sol
 * #### 689 fix mid section and get max from left and right, idx tricky to get right
-* 691 standard dfs, the optimization is tricky
+* #### 691 dfs but hard to have elegant impl, the optimization is tricky
 * 692 simple priority queue
-* 699 N^2 sol is actually best sol
+* #### 699 it can be better than N^2, but need to be careful dealing with edge cases
 * 713 took me a while to find this is a sliding window prob
 * 750 solve rectangle problem by counting number of lines
-* 764 simple problem but the solution is amazingly elegant
-* 766 simple yet clever sol
-* 801 similar to buy sell stock
-* 862 convert a prob into a sliding window prob on increasing array
+* 764 simple problem 
+* #### 766 simple yet clever sol
+* #### 801 similar to buy sell stock
+* #### 862 store index instead of value and the deque solution is so smart
 * 863 can build a graph and do bfs, which is cleaner than my sol
-* 886 actually dfs/bfs prob
-* 889 great way to construct tree from array
-* 918 simple problem, great solution
+* #### 886 actually dfs/bfs prob
+* #### 889 great way to construct tree from array
+* #### 918 simple problem, great solution or similar to 862
 * 958 recursive sol is beautiful
 * 968 dp works but the greedy sol is much better 
 * 1008 actually direct insertion works however there's better sol
