@@ -127,6 +127,6 @@ Problems worth revisiting:
 * #### 886 actually dfs/bfs prob
 * #### 889 great way to construct tree from array
 * #### 918 simple problem, great solution or similar to 862
-* 958 recursive sol is beautiful
+* #### 958 bfs is easy but in order is tricky to write elegant
 * 968 dp works but the greedy sol is much better 
 * 1008 actually direct insertion works however there's better sol
