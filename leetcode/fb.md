@@ -129,4 +129,4 @@ Problems worth revisiting:
 * #### 918 simple problem, great solution or similar to 862
 * #### 958 bfs is easy but in order is tricky to write elegant
 * #### 968 dfs with mem works but the greedy sol is much better 
-* #### 1008 actually direct insertion works however there's better sol
+* #### 1008 actually direct insertion works however there's greedy sol (but how to prove?)
