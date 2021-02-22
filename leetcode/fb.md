@@ -1,12 +1,12 @@
 Problems worth revisiting:
-* 4
+* #### 4 binary search, need to know the range of i is [0, m] instead of [0, m - 1]
 * 5
 * 10
-* 11
-* 15
+* #### 11 from two sides to middle
+* #### 15 also two side to middle
 * 22
 * 25
-* 28
+* #### 28 kmp is tricky to get right
 * 30
 * 31
 * 33
