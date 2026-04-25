@@ -1,5 +1,9 @@
 * divide and conquer
+* circular array (queue), need to either track size with a variable or reserve an empty spot to check fullness.
 * dfs/bfs
+* optimal structure problem (e.g. how to split a string into minimum number of substrings so that each substring satisfies certain condition)
+    * usually first find the condition for each possible substring (i, j)
+    * then use 1d dp to find dp[i] which depends on dp[0]...dp[i - 1] as well as whether the substring [j, i] satisfies the condition 
 * Dependency related problems
     * union find  
     * keep track of a set of elements with degree of 0, until the set is empty
